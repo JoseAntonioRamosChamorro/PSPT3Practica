@@ -33,7 +33,7 @@ public class Servidor extends JFrame implements  WindowListener
 
 	public Servidor() 
 	{
-		super(" VENTANA DEL SERVIDOR DEL JUEGO ");
+		super("Servidor");
 		setBackground(Color.BLUE);
 		addWindowListener(this);
 		this.getContentPane().setBackground(Color.GRAY);

@@ -33,7 +33,7 @@ public class Cliente extends JFrame implements WindowListener{
 	public Cliente(Socket socket, String nombreJugador)
 	{ 
 		
-		super(" Conexión del Jugador: " + nombreJugador); 
+		super("Conexión Jugador: " + nombreJugador); 
 		getContentPane().setBackground(Color.GRAY);
 		addWindowListener(this);
 		getContentPane().setLayout(null);
